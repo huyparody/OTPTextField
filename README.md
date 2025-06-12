@@ -108,7 +108,8 @@ To reset:
 typingState = .typing
 ```
 
-https://github.com/user-attachments/assets/03c426fc-76d7-47da-8619-728c72cc41f0
+
+https://github.com/user-attachments/assets/cda317d5-34b8-45bb-9d85-242e87a7f903
 
 
 ## 🧠 TypingState Enum
