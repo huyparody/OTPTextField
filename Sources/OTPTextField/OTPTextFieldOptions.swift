@@ -77,12 +77,6 @@ public struct OTPTextFieldOptions {
     /// Spacing between rounded corner fields.
     public var roundedCornerSpacing: CGFloat = 6
     
-    /// Width of each underline segment.
-    public var underlineWidth: CGFloat = 40
-    
-    /// Width of each rounded box.
-    public var roundedCornerWidth: CGFloat = 50
-    
     /// Default configuration.
     @MainActor public static let `default` = OTPTextFieldOptions(
         textFont: .system(size: 20, weight: .medium),
@@ -118,7 +112,5 @@ public struct OTPTextFieldOptions {
         self.textColor = textColor
         self.underlineSpacing = underlineSpacing
         self.roundedCornerSpacing = roundedCornerSpacing
-        self.underlineWidth = underlineWidth
-        self.roundedCornerWidth = roundedCornerWidth
     }
 }

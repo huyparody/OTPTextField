@@ -109,7 +109,7 @@ public struct OTPTextField: View {
                     .frame(maxHeight: .infinity, alignment: .bottom)
             }
         }
-        .frame(width: textFieldWidth, height: options.textFieldHeight)
+        .frame(height: options.textFieldHeight)
         .overlay {
             let stringValue = string(index)
             if !stringValue.isEmpty {
@@ -148,16 +148,6 @@ public struct OTPTextField: View {
             return options.roundedCornerSpacing
         case .underlined:
             return options.underlineSpacing
-        }
-    }
-    
-    /// Width of each OTP character field.
-    private var textFieldWidth: CGFloat {
-        switch style {
-        case .roundedBorder:
-            return options.roundedCornerWidth
-        case .underlined:
-            return options.underlineWidth
         }
     }
 }
