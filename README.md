@@ -93,8 +93,6 @@ Use `OTPTextFieldOptions` to customize colors, font, spacing, and sizing:
 | `textColor`            | `Color`    | `.primary`                             | Text color for OTP input.                                                   |
 | `underlineSpacing`     | `CGFloat`  | `16`                                   | Spacing between underline segments (used with `.underlined`).               |
 | `roundedCornerSpacing` | `CGFloat`  | `6`                                    | Spacing between boxes (used with `.roundedBorder`).                         |
-| `underlineWidth`       | `CGFloat`  | `40`                                   | Width of each underline segment (used with `.underlined`).                  |
-| `roundedCornerWidth`   | `CGFloat`  | `50`                                   | Width of each box (used with `.roundedBorder`).                             |
 
 ## ❗ Handling Invalid OTP (requires iOS 17+)
 
