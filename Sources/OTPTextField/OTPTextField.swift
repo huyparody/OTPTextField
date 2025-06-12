@@ -84,8 +84,9 @@ public struct OTPTextField: View {
             if text.count == otpMaxDigit {
                 onComplete()
             }
-            
-            if typingState == .invalid {
+        }
+        .onChange(of: typingState) { newValue in
+            if newValue == .invalid {
                 invalidTrigger.toggle()
             }
         }
