@@ -60,7 +60,7 @@ style(.underlined)
 ```
 Visually shows a line under each digit box.
 
-<img src="Images/underlined.png" width="375"/>
+<img src="Assets/underlined.png" width="375"/>
 
 ---
 
@@ -72,7 +72,7 @@ style(.roundedBorder)
 
 Each digit is inside a rounded rectangle.
 
-<img src="Images/rounded.png" width="375"/>
+<img src="Assets/rounded.png" width="375"/>
 
 ## ⚙️ Customization
 
