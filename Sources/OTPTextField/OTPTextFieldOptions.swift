@@ -96,9 +96,7 @@ public struct OTPTextFieldOptions {
         textFont: Font,
         textColor: Color,
         underlineSpacing: CGFloat = 16,
-        roundedCornerSpacing: CGFloat = 6,
-        underlineWidth: CGFloat = 40,
-        roundedCornerWidth: CGFloat = 50
+        roundedCornerSpacing: CGFloat = 6
     ) {
         self.borderColor = borderColor
         self.borderCornerRadius = borderCornerRadius
